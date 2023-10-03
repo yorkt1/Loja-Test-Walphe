@@ -32,7 +32,7 @@ body img {
   max-width: 100%;
 }
 .conteudoImg{
-background-color: #F28123;
+background-color: red;
 height: 58vh;
 display: flex;
 justify-content: center;
