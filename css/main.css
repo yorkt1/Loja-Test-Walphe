@@ -689,7 +689,9 @@ nav.mean-nav > ul > li:first-child > a {
 }
 
 .site-logo {
-  padding: 6px 0;
+  margin-top: 10px;
+  padding: 6px ;
+  text-align: center;
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
