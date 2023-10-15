@@ -481,11 +481,12 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 
 .section-title p {
   font-size: 15px;
-  width: 530px;
+  width: 100%;
   margin: 0 auto;
   color: #555;
   margin-top: 10px;
   line-height: 1.8;
+  text-align: start;
 }
 
 .section-title {
