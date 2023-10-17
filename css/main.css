@@ -462,9 +462,10 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .section-title h3 {
-  font-size: 40px;
+  font-size: 20px;
   position: relative;
   padding-bottom: 15px;
+  margin-right: 50px;
 }
 
 .section-title h3:after {
