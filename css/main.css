@@ -183,10 +183,12 @@ p:last-child {
 ----------------------------------------------------------------------------- */
 
 
-
+#imgProduto{
+  border-radius: 15px 15px 0px 0px;
+}
 .Tamanho-img{
-
-  padding: 20px;
+  border-radius: 15px;
+  padding: auto;
 }
 .loader {
   bottom: 0;
@@ -873,6 +875,47 @@ a.mobile-show {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 7px;
+}
+/* -----------------------------------------------------------------------------
+
+# barra de categoria
+
+----------------------------------------------------------------------------- */
+
+.Categorias{
+  display: flex;
+ justify-content: center;
+ 
+}
+.barra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F28123;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+
+}
+
+/* Estilo dos botões de cada categoria */
+.botao {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Estilo dos ícones de cada categoria */
+.icone {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -2432,6 +2475,9 @@ ul.social-link-team li a {
 
 .single-product-item {
   margin-bottom: 30px;
+ background-color: #aaa;
+ border: solid 1px color(srgb red green blue);
+ box-shadow: #999999;
 }
 
 .product-image {
@@ -2749,7 +2795,7 @@ table.order-details tbody td {
   -webkit-box-shadow: 0 0 20px #e4e4e4;
   box-shadow: 0 0 20px #e4e4e4;
   padding-bottom: 50px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 /* -----------------------------------------------------------------------------
