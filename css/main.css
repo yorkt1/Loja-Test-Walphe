@@ -698,11 +698,16 @@ nav.mean-nav > ul > li:first-child > a {
   display: inline-block;
   padding: 10px;
 }
-
+#logo-walphe{
+  width: 100px;
+  height: 50px;
+}
 .site-logo {
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 6px ;
   text-align: center;
+ 
+
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
