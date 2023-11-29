@@ -703,11 +703,11 @@ nav.mean-nav > ul > li:first-child > a {
   height: 50px;
 }
 .site-logo {
-  margin-top: 0px;
+  margin-top: 10px;
   padding: 6px ;
   text-align: center;
+ display: flex;
  
-
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
